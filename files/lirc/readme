@@ -1,0 +1,15 @@
+Install lirc:
+
+sudo apt-get install lirc
+
+change ATI/NVidia/X10 I & II RF Remote for the configuration.
+and None for the IR receiver.
+
+
+Copy hardware.conf and lircd.conf to /etc/lirc/
+
+run:
+sudo /etc/init.d/lirc restart
+
+and test:
+irw
